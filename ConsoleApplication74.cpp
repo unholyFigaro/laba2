@@ -12,7 +12,7 @@ private:
     string name;
 public:
     friend class Controller;
-    void defaultIdSetter(){
+    Detail(){
         int defaultId = 1111111;
         id = defaultId;
     }
@@ -49,7 +49,6 @@ int main()
     
     Detail object;
     
-    object.defaultIdSetter();
     string userName;
     
     cin >> userName;
